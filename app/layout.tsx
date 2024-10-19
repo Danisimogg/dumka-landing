@@ -38,72 +38,105 @@ export default function RootLayout({
           href="/favicon-16x16.png"
         />
         <link rel="manifest" href="/site.webmanifest" />
-        <title>Dumka 🦖</title>
-        <meta name="description" content="Dumka - A Modern Experience" />
+        <title>Dumka 🦖 - Easy, Mobile-Friendly Collaboration for Teams</title>
         <meta
           name="description"
-          content="Unite people into teams for collaborative work"
+          content="Dumka is an easy-to-use, mobile-friendly platform that empowers teams to collaborate seamlessly, anytime, anywhere. Unite people with modern tools for effective teamwork, improved communication, and shared growth."
         />
         <link rel="icon" href="/favicon.ico" />
-        <meta itemProp="name" content="Dumka - A Modern Experience" />
+
+        <meta
+          itemProp="name"
+          content="Dumka 🦖 - Easy, Mobile-Friendly Collaboration for Teams"
+        />
         <meta
           itemProp="description"
-          content="Unite people into teams for collaborative work"
+          content="Dumka provides an easy, mobile-friendly platform to unite teams for seamless and effective collaboration, anytime, anywhere."
         />
-        <meta itemProp="image" content="https://dumka.org/overlay.jpg" />
-        <meta property="og:image" content="https://dumka.org/overlay.jpg" />
+        <meta itemProp="image" content="https://dumka.org/overlay.png" />
 
-        <meta property="og:title" content="Dumka - A Modern Experience" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
         <meta
           property="og:description"
-          content="Unite people into teams for collaborative work"
+          content="Dumka is a mobile-first, easy-to-use platform that empowers teams to collaborate seamlessly. Unite people with modern tools for effective teamwork, improved communication, and shared growth."
         />
-        <meta name="twitter:card" content="https://dumka.org/overlay.jpg" />
+        <meta property="og:image" content="https://dumka.org/overlay.png" />
+
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:site" content="@dumka_app" />
-        <meta name="twitter:title" content="Dumka - A Modern Experience" />
+        <meta
+          name="twitter:title"
+          content="Dumka 🦖 - Easy, Mobile-Friendly Collaboration for Teams"
+        />
         <meta
           name="twitter:description"
-          content="Unite people into teams for collaborative work"
+          content="Dumka is an easy, mobile-friendly platform that empowers teams to collaborate seamlessly, anytime, anywhere."
         />
-        <meta name="twitter:image" content="https://dumka.org/overlay.jpg" />
-        <meta property="line:title" content="Dumka - A Modern Experience" />
+        <meta name="twitter:image" content="https://dumka.org/overlay.png" />
+
+        <meta
+          property="line:title"
+          content="Dumka 🦖 - Easy, Mobile-First Collaboration Platform"
+        />
         <meta
           property="line:description"
-          content="Unite people into teams for collaborative work"
+          content="Dumka empowers teams with a mobile-first approach for effective and easy collaboration, anytime, anywhere."
         />
+
         <meta
           property="pinterest:description"
-          content="Dumka - A Modern Experience"
-        />
-        <meta property="reddit:title" content="Dumka - A Modern Experience" />
-        <meta property="telegram:title" content="Dumka - A Modern Experience" />
-        <meta property="tumblr:title" content="Dumka - A Modern Experience" />
-        <meta property="viber:title" content="Dumka - A Modern Experience" />
-        <meta property="weibo:title" content="Dumka - A Modern Experience" />
-        <meta property="whatsapp:title" content="Dumka - A Modern Experience" />
-        <meta property="linkedin:title" content="Dumka - A Modern Experience" />
-        <meta property="vk:title" content="Dumka - A Modern Experience" />
-        <meta property="mailru:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="livejournal:title"
-          content="Dumka - A Modern Experience"
+          content="Dumka - Easy, mobile-friendly collaboration for effective teamwork, empowering your team anytime, anywhere."
         />
         <meta
-          property="workplace:title"
-          content="Dumka - A Modern Experience"
+          property="reddit:description"
+          content="Dumka provides an easy, mobile-first platform for teams to collaborate effectively, anytime, anywhere."
         />
-        <meta property="pocket:title" content="Dumka - A Modern Experience" />
         <meta
-          property="instapaper:title"
-          content="Dumka - A Modern Experience"
+          property="telegram:description"
+          content="Dumka - Easy, mobile-friendly collaboration for seamless team work."
         />
-        <meta property="hatena:title" content="Dumka - A Modern Experience" />
         <meta
-          property="facebookMessenger:title"
-          content="Dumka - A Modern Experience"
+          property="tumblr:description"
+          content="Dumka is a mobile-first, easy-to-use platform for creative and effective team collaboration."
         />
-        <meta property="email:subject" content="Dumka - A Modern Experience" />
-        <meta property="gab:title" content="Dumka - A Modern Experience" />
+        <meta
+          property="linkedin:description"
+          content="Dumka offers a mobile-friendly solution for teams to collaborate effectively, providing modern tools for productive and seamless teamwork."
+        />
+
+        <meta
+          property="whatsapp:title"
+          content="Dumka 🦖 - Easy, Mobile-Friendly Collaboration for Teams"
+        />
+        <meta
+          property="whatsapp:description"
+          content="Dumka - Unite your team with a mobile-friendly, easy-to-use collaboration platform designed for growth and productivity."
+        />
+        <meta
+          property="telegram:title"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
+        <meta
+          property="vk:title"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
+        <meta
+          property="linkedin:title"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
+
+        <meta
+          property="email:subject"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
+        <meta
+          property="gab:title"
+          content="Dumka - Easy, Mobile-Friendly Collaboration for Teams"
+        />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

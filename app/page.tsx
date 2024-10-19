@@ -1,5 +1,5 @@
 "use client";
-import Head from "next/head";
+
 import { useEffect, useState } from "react";
 import { VerticalTiles } from "@/components/animata/preloader/vertical-tiles";
 import { ShootingStars } from "@/components/ui/shooting-stars";
@@ -18,74 +18,6 @@ export default function Home() {
 
   return (
     <>
-      <Head>
-        <title>Dumka 🦖</title>
-        <meta name="description" content="Dumka - A Modern Experience" />
-        <meta
-          name="description"
-          content="Unite people into teams for collaborative work"
-        />
-        <link rel="icon" href="/favicon.ico" />
-        <meta itemProp="name" content="Dumka - A Modern Experience" />
-        <meta
-          itemProp="description"
-          content="Unite people into teams for collaborative work"
-        />
-        <meta itemProp="image" content="https://dumka.org/overlay.jpg" />
-        <meta property="og:image" content="https://dumka.org/overlay.jpg" />
-
-        <meta property="og:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="og:description"
-          content="Unite people into teams for collaborative work"
-        />
-        <meta name="twitter:card" content="https://dumka.org/overlay.jpg" />
-        <meta name="twitter:site" content="@@dumka_app" />
-        <meta name="twitter:title" content="Dumka - A Modern Experience" />
-        <meta
-          name="twitter:description"
-          content="Unite people into teams for collaborative work"
-        />
-        <meta name="twitter:image" content="https://dumka.org/overlay.jpg" />
-        <meta property="line:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="line:description"
-          content="Unite people into teams for collaborative work"
-        />
-        <meta
-          property="pinterest:description"
-          content="Dumka - A Modern Experience"
-        />
-        <meta property="reddit:title" content="Dumka - A Modern Experience" />
-        <meta property="telegram:title" content="Dumka - A Modern Experience" />
-        <meta property="tumblr:title" content="Dumka - A Modern Experience" />
-        <meta property="viber:title" content="Dumka - A Modern Experience" />
-        <meta property="weibo:title" content="Dumka - A Modern Experience" />
-        <meta property="whatsapp:title" content="Dumka - A Modern Experience" />
-        <meta property="linkedin:title" content="Dumka - A Modern Experience" />
-        <meta property="vk:title" content="Dumka - A Modern Experience" />
-        <meta property="mailru:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="livejournal:title"
-          content="Dumka - A Modern Experience"
-        />
-        <meta
-          property="workplace:title"
-          content="Dumka - A Modern Experience"
-        />
-        <meta property="pocket:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="instapaper:title"
-          content="Dumka - A Modern Experience"
-        />
-        <meta property="hatena:title" content="Dumka - A Modern Experience" />
-        <meta
-          property="facebookMessenger:title"
-          content="Dumka - A Modern Experience"
-        />
-        <meta property="email:subject" content="Dumka - A Modern Experience" />
-        <meta property="gab:title" content="Dumka - A Modern Experience" />
-      </Head>
       <VerticalTiles
         animationDelay={1.8}
         animationDuration={0.5}
