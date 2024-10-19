@@ -19,8 +19,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Dumka</title>
-        <meta name="description" content="Dumka by create next app" />
+        <title>Dumka 🦖</title>
+        <meta name="description" content="Dumka - A Modern Experience" />
         <meta
           name="description"
           content="Unite people into teams for collaborative work"
