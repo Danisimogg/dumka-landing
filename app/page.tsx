@@ -26,7 +26,14 @@ export default function Home() {
           content="Unite people into teams for collaborative work"
         />
         <link rel="icon" href="/favicon.ico" />
+        <meta itemProp="name" content="Dumka - A Modern Experience" />
+        <meta
+          itemProp="description"
+          content="Unite people into teams for collaborative work"
+        />
+        <meta itemProp="image" content="https://dumka.org/overlay.jpg" />
         <meta property="og:image" content="https://dumka.org/overlay.jpg" />
+
         <meta property="og:title" content="Dumka - A Modern Experience" />
         <meta
           property="og:description"
