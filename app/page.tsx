@@ -40,7 +40,7 @@ export default function Home() {
           content="Unite people into teams for collaborative work"
         />
         <meta name="twitter:card" content="https://dumka.org/overlay.jpg" />
-        <meta name="twitter:site" content="@dumka" />
+        <meta name="twitter:site" content="@@dumka_app" />
         <meta name="twitter:title" content="Dumka - A Modern Experience" />
         <meta
           name="twitter:description"
