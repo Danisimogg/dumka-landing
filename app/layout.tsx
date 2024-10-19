@@ -1,6 +1,13 @@
 import localFont from "next/font/local";
 import "./globals.css";
-
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  //other meta data key values here...
+  openGraph: {
+    title: "LifeMentor",
+    description: "Confide your inner thoughts and get wise advice from legends",
+  },
+};
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
   variable: "--font-geist-sans",
