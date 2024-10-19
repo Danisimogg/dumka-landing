@@ -111,9 +111,11 @@ export default function Home() {
               )}
             </div>
             <footer className="w-full mt-12 sticky bottom-0">
-              <p className="w-full text-center my-6 text-gray-600">
-                Copyright © 2024 Dumka
-              </p>
+              {showTypewriter && (
+                <p className="w-full text-center my-6 text-gray-600">
+                  Copyright © 2024 Dumka
+                </p>
+              )}
             </footer>
           </div>
         </>
